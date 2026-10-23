@@ -62,5 +62,5 @@ export default defineConfig([
       "@stylistic/space-unary-ops": "error",
       "@stylistic/template-curly-spacing": ["error", "never"],
     },
-    languageOptions: { globals: globals.browser } },
+    languageOptions: { globals: globals.node } },
 ]);
